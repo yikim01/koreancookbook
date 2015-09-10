@@ -25,12 +25,16 @@ $secondary: #f3f3f3;
   box-sizing: border-box;
 }
 
+.stuff {
+  background-image: url('http://cdn1.koreanbapsang.com/wp-content/uploads/2015/01/DSC_0607.jpg');
+}
 .tint {
   top: 0;
   left: 0;
   position: relative;
   float: left;
   cursor: pointer;
+  z-index: -10;
 }
 
 .tint:before {
@@ -131,12 +135,15 @@ a:link {
 
   &:hover {
     background-color: $primary;
-    color: white;
+    color: #424242;
 
     transition: .2s ease;
   }
 }
 
+#content {
+  position: relative;
+}
 
 p {
   text-align: center;
