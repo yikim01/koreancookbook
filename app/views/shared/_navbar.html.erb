@@ -2,37 +2,32 @@
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-<!--       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button> -->
       <a class="navbar-brand" href="#">K's Kitchen</a>
+      <div id="navcontainer">
+        <ul class="links">
+          <li><a href="#" style="color:#d3d3d3">Home</a></li>
+          <li><a href="#" style="color:#d3d3d3">Recipes</a></li>
+          <li><a href="#" style="color:#d3d3d3">Ingredients</a></li>
+          <li><a href="#" style="color:#d3d3d3">Photos</a></li>
+          <li><a href="#" style="color:#d3d3d3">About</a></li>
+        </ul>
+      </div>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <form class="navbar-form" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <div class="dropdown">
-          <button class="btn btn-default fa fa-align-justify fa-lg dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      </ul>
 
-            <span class="caret"></span>
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-            <li><a href="#">Recipes</a></li>
-            <li><a href="#">Ingredients</a></li>
-            <li><a href="#">Photos</a></li>
-            <li><a href="#">About</a></li>
-          </ul>
-        </div>
-      </form>
-      <!-- add login or sign up links here -->
-      <button class="btn sm ghost">Sign Up</button>
-      <button class="btn sm ghost">Log In</button>
+      <ul class="nav navbar-nav navbar-right">
+        <li><button class="btn sm cta">Log In</button></li>
+        <li><button class="btn sm ghost">Sign Up</button></li>
+        <li><form class="navbar-form navbar-left" role="search">
+          <div class="search">
+            <span class="fa fa-search"></span>
+            <input placeholder="Search">
+          </div>
+        </form></li>
+      </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
