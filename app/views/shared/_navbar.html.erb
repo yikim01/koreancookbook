@@ -2,28 +2,37 @@
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+<!--       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-      </button>
+      </button> -->
       <a class="navbar-brand" href="#">K's Kitchen</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-      </ul>
-      <form class="navbar-form navbar-left" role="search">
+      <form class="navbar-form" role="search">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
-          <i class="fa fa-bars"></i>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-default fa fa-align-justify fa-lg dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">Ingredients</a></li>
+            <li><a href="#">Photos</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
         </div>
       </form>
       <!-- add login or sign up links here -->
+      <button class="btn sm ghost">Sign Up</button>
+      <button class="btn sm ghost">Log In</button>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
